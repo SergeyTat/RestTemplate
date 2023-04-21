@@ -5,30 +5,36 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.6</version>
+        <version>2.7.9</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ru.tatarinov.testTempate</groupId>
-    <artifactId>demo5</artifactId>
+    <groupId>ru.tatarinov</groupId>
+    <artifactId>SecurityBoot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo5</name>
-    <description>demo5</description>
+    <name>SecurityBoot</name>
+    <description>SecurityBoot</description>
     <properties>
         <java.version>17</java.version>
     </properties>
     <dependencies>
+
+
+
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-    </dependencies>
 
+
+    </dependencies>
     <build>
         <plugins>
             <plugin>
@@ -37,5 +43,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
